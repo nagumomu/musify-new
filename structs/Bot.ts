@@ -26,7 +26,7 @@ export class Bot {
 
     this.client.on("warn", (info) => console.log(info));
     this.client.on("error", console.error);
-    this.client.on("debug", r => console.log(r));
+    //this.client.on("debug", r => console.log(r));
 
     this.importCommands();
     this.onMessageCreate();
